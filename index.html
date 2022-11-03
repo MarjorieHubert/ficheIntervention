@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiche d'intervention</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="firstSection">
+        <section class="justify-row">
+            <article class="width50">
+                <form class="justify-col">
+                    <fieldset>
+                        <label for="idTache" class="labelWidth">Identifiant Tâche :</label>
+                        <input type="text" id="idTache" class="inputWidth bgBlue">
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="mission" class="labelWidth">Ordre de Missions Etbli par :</label>
+                        <select name="select" id="mission" class="inputWidth">
+                            <option value="">#</option>
+                            <option value="">#</option>
+                        </select>
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="client" class="labelWidth">Client :</label>
+                        <select name="" id="client" class="inputWidth">
+                            <option value="">#</option>
+                            <option value="">#</option>
+                        </select>
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="entreprise" class="labelWidth">Entreprise utilisatrice :</label>
+                        <select name="" id="entreprise" class="inputWidth">
+                            <option value="">#</option>
+                            <option value="">#</option>
+                        </select>
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="adresse" class="labelWidth">Adresse de livraison :</label>
+                        <select name="" id="adresse" class="inputWidth inputHeight">
+                            <option value="">#</option>
+                            <option value="">#</option>
+                        </select>
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="travaux" class="labelWidth">Travaux Effectués :</label>
+                        <select name="" id="travaux" class="inputWidth inputHeight">
+                            <option value="">#</option>
+                            <option value="">#</option>
+                        </select>
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="observationsTech" class="vertical-align">Observations du Technicien CAMEI :</label>
+                        <textarea name="" id="observationsTech" cols="53" rows="7"></textarea>
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="observationsClient" class="vertical-align">Observations du Client :</label>
+                        <textarea name="" id="observationsClient" cols="53" rows="7"></textarea>
+                    </fieldset>
+                </form>
+            </article>
+
+            <article class="justify-col">
+                <div class="mp">
+                    <form class="justify-col">
+                        <fieldset>
+                            <label for="date" class="labelWidth">Le :</label>
+                            <input type="date" id="date">
+                            <input type="text" class="inputText">
+                        </fieldset>
+
+                        <fieldset>
+                            <label for="personneContact" class="labelWidth">Personne à contacter :</label>
+                            <select name="" id="personneContact" class="inputWidth2">
+                                <option value="">#</option>
+                                <option value="">#</option>
+                            </select>
+                        </fieldset>
+
+                        <fieldset>
+                            <label for="techCAMEI" class="labelWidth">Technicien CAMEI :</label>
+                            <select name="" id="techCAMEI" class="inputWidth2">
+                                <option value="">#</option>
+                                <option value="">#</option>
+                            </select>
+                        </fieldset>
+
+                        <fieldset>
+                            <label for="devis" class="labelWidth">N° de Devis :</label>
+                            <select name="" id="devis" class="inputWidth2">
+                                <option value="">#</option>
+                                <option value="">#</option>
+                            </select>
+                        </fieldset>
+                    </form>
+                </div>
+
+                <div class="justify-row">
+                    <form class="justify-col secondForm">
+                        <fieldset>
+                            <label for="periode" class="labelWidth2">Période du :</label>
+                            <input type="date" id="periode">
+                            <label for="periode2">Au :</label>
+                            <input type="date" id="periode2">
+                        </fieldset>
+
+                        <fieldset>
+                            <label for="demande" class="labelWidth2">Demandé le :</label>
+                            <input type="date" id="demande">
+                        </fieldset>
+
+                        <fieldset>
+                            <label for="par" class="labelWidth2">Par :</label>
+                            <select name="" id="par">
+                                <option value="">#</option>
+                                <option value="">#</option>
+                            </select>
+                        </fieldset>
+
+                        <fieldset>
+                            <label for="machine" class="labelWidth2">Machine :</label>
+                            <select name="" id="machine">
+                                <option value="">#</option>
+                                <option value="">#</option>
+                            </select>
+                        </fieldset>
+
+                        <fieldset>
+                            <label for="garantie" class="labelWidth2">Garantie :</label>
+                            <input type="checkbox" id="garantie">
+                            <label for="facturation" class="labelWidth2">Facturation :</label>
+                            <input type="checkbox">
+                        </fieldset>
+                    </form>
+
+                    <div>
+                        <p>Type de main d'oeuvre :</p>
+                        <hr>
+                        <form>
+                            <fieldset>
+                                <label for="electricite" class="labelWidth3">Electricité :</label>
+                                <input type="checkbox" id="electricite">
+                                <input type="text" class="inputMargin bgBlue">
+                            </fieldset>
+                            <fieldset>
+                                <label for="diagnostic" class="labelWidth3">Diagnostic du Technicien :</label>
+                                <input type="checkbox" id="diagnostic">
+                                <input type="text" class="inputMargin bgBlue">
+                            </fieldset>
+                            <fieldset>
+                                <label for="automatisme" class="labelWidth3">Automatisme :</label>
+                                <input type="checkbox" id="automatisme">
+                                <input type="text" class="inputMargin bgBlue">
+                            </fieldset>
+                            <fieldset>
+                                <label for="etude" class="labelWidth3">Etude :</label>
+                                <input type="checkbox" id="etude">
+                                <input type="text" class="inputMargin bgBlue">
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section>
+            <article class="border">
+                <table class="firstTable" border="1">
+                    <thead>
+                        <tr>
+                            <th rowspan="3">Date</th>
+                            <th colspan="3">Route</th>
+                            <th colspan="7">Travail</th>
+                            <th colspan="3">Route</th>
+                        </tr>
+
+                        <tr>
+                            <th colspan="3">Voyage Aller</th>
+                            <th colspan="3">Temps de Travail Matin</th>
+                            <th colspan="3">Temps de Travail Après-Midi</th>
+                            <th rowspan="2">Total/Jour</th>
+                            <th colspan="3">Voyage Retour</th>
+                        </tr>
+
+                        <tr>
+                            <th>Départ</th>
+                            <th>Arrivée</th>
+                            <th>Durée trajet</th>
+                            <th>De</th>
+                            <th>A</th>
+                            <th>Total</th>
+                            <th>De</th>
+                            <th>A</th>
+                            <th>Total</th>
+                            <th>Départ</th>
+                            <th>Arrivée</th>
+                            <th>Durée Trajet</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td class="bgBlue">0,00</td>
+                            <td></td>
+                            <td></td>
+                            <td class="bgBlue">0,00</td>
+                            <td></td>
+                            <td></td>
+                            <td class="bgBlue">0,00</td>
+                            <td class="bgBlue">0,00</td>
+                            <td></td>
+                            <td></td>
+                            <td class="bgBlue">0,00</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="blank"></div>
+
+                <div class="button">
+                    <button>Supprimer la ligne</button>
+                    <button>Calcul</button>
+                </div>
+            </article>
+        </section>
+
+        <section>
+            <article class="justify-row spaceB">
+                <form>
+                    <fieldset>
+                        <label for="forfait" class="labelWidth4">Nombre de forfait déplacement :</label>
+                        <input type="text" id="forfait" class="inputWidth3">
+                    </fieldset>
+                    <fieldset>
+                        <label for="prixForfait" class="labelWidth4">Prix du forfait déplacement :</label>
+                        <select name="" id="prixForfait" class="inputWidth3">
+                            <option value="">#</option>
+                            <option value="">#</option>
+                        </select>
+                    </fieldset>
+                </form>
+
+                <form>
+                    <fieldset>
+                        <label for="distance" class="labelWidth4">Distance parcourue par trajet :</label>
+                        <select name="" id="distance" class="inputWidth3">
+                            <option value="">#</option>
+                            <option value="">#</option>
+                        </select>
+                    </fieldset>
+                    <fieldset>
+                        <label for="peage" class="labelWidth4">Péage [TTC] par trajet :</label>
+                        <select name="" id="peage" class="inputWidth3">
+                            <option value="">#</option>
+                            <option value="">#</option>
+                        </select>
+                    </fieldset>
+                </form>
+
+                <form>
+                    <fieldset>
+                        <label for="prixKm" class="labelWidth4">Prix du Km :</label>
+                        <select name="" id="prixKm" class="inputWidth3">
+                            <option value="">#</option>
+                            <option value="">#</option>
+                        </select>
+                    </fieldset>
+                    <fieldset>
+                        <label for="nombreTrajet" class="labelWidth4">Nbre de trajet :</label>
+                        <input type="text" id="nombreTrajet" class="inputWidth3 bgBlue">
+                    </fieldset>
+                </form>
+
+                <div class="logo">
+                    <img src="logo_planete.png" alt="logo_planete">
+                    <a href="#">lorem ipsum</a>
+                </div>
+            </article>
+        </section>
+
+        <section>
+            <article class="border">
+                <table class="secondTable" border="1">
+                    <thead>
+                        <tr>
+                            <th>Classe :</th>
+                            <th>Désignation :</th>
+                            <th>Référence :</th>
+                            <th>Quantité :</th>
+                            <th>PA Unitaire HT :</th>
+                            <th>Tx Revente :</th>
+                            <th>Total € H.T :</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <select name="" id="classe" class="tableSelect">
+                                    <option value="">#</option>
+                                    <option value="">#</option>
+                                </select>
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td>0,00</td>
+                            <td>0,00</td>
+                            <td>1,50</td>
+                            <td class="bgBlue">0,00</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="blank"></div>
+
+                <div class="button">
+                    <button>Supprimer la ligne</button>
+                    <button>Calcul</button>
+                </div>
+
+                <table class="secondTable" border="1">
+                    <thead>
+                        <tr>
+                            <th class="blankCell"></th>
+                            <th>Désignation :</th>
+                            <th>Référence :</th>
+                            <th>Quantité :</th>
+                            <th>PA Unitaire HT :</th>
+                            <th>Tx Revente :</th>
+                            <th>Total € H.T :</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="blankCell"></td>
+                            <td class="bgBlue"></td>
+                            <td class="bgBlue"></td>
+                            <td class="bgBlue">0,00</td>
+                            <td class="bgBlue">0,00</td>
+                            <td class="bgBlue">1,50</td>
+                            <td class="bgBlue">0,00</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="blank2"></div>
+
+            </article>
+        </section>
+
+        <section class="border">
+            <table class="thirdTable" border="1">
+                <thead>
+                    <tr>
+                        <th>Facturé :</th>
+                        <th>N° de Facture :</th>
+                        <th>Date de Facturation :</th>
+                        <th>Total MO HT :</th>
+                        <th>Total Trajet HT :</th>
+                        <th>Total Achat HT :</th>
+                        <th>Total Fourni HT :</th>
+                        <th>Total Dépt HT :</th>
+                        <th>Total HT :</th>
+                        <th>TVA :</th>
+                        <th>Total Tva :</th>
+                        <th>Total TTC :</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <input type="checkbox">
+                        </td>
+                        <td class="bgBlue"></td>
+                        <td class="bgBlue"></td>
+                        <td class="bgBlue">0,00</td>
+                        <td class="bgBlue">0,00</td>
+                        <td class="bgBlue">0,00</td>
+                        <td class="bgBlue">0,00</td>
+                        <td class="bgBlue">0,00</td>
+                        <td class="bgBlue">0,00</td>
+                        <td>20.00%</td>
+                        <td class="bgBlue">0,00</td>
+                        <td class="bgBlue">0,00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </section>
+</body>
+</html>
